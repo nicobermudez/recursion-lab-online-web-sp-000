@@ -44,6 +44,8 @@ function includesNumber(array, n) {
   if(array.length <= 1) {
     return true;
   } else {
-    if()
+    if(array[0] === n) {
+      return true;
+    }
   }
 }
