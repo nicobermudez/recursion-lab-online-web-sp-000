@@ -13,6 +13,6 @@ function reverseString(string) {
   if(string <= 1) {
     return true;
   } else {
-    let substring = string.substring
+    let substring = string.substring(0, -1)
   }
 }
