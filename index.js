@@ -30,8 +30,8 @@ function isPalindrome(string) {
 
 function addUpTo(array) {
   if(array.length > 1) {
-
+    
   } else {
-    return 
+    return ;
   }
 }
