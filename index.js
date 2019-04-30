@@ -27,3 +27,7 @@ function isPalindrome(string) {
     }
   }
 }
+
+function addUpTo() {
+  
+}
