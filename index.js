@@ -33,7 +33,7 @@ function addUpTo(array, index) {
 }
 function maxOf(array) {
   if(array.length <= 1) {
-    return false;
+    return array[0];
   } else {
     
   }
