@@ -10,7 +10,6 @@ function printString(myString) {
 }
 
 function reverseString(string) {
-
   if(string === "") {
     return "";
   } else {
