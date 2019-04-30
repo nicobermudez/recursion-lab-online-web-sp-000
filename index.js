@@ -14,7 +14,7 @@ function reverseString(string) {
   if(string <= 1) {
     return string;
   } else {
-    newString = string + string.substring(0, -1)
+    let newString = string + string.substring(0, -1)
     reverseString(newString)
   }
 }
