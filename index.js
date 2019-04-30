@@ -12,7 +12,7 @@ function printString(myString) {
 function reverseString(string) {
 
   if(string === "") {
-    return string;
+    return "";
   } else {
     let newString = string.substring(0, -1)
     reverseString(newString)
