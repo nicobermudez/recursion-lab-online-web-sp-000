@@ -10,6 +10,7 @@ function printString(myString) {
 }
 
 function reverseString(string) {
+  let newString = ""
   if(string <= 1) {
     return string;
   } else {
