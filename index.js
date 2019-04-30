@@ -47,7 +47,7 @@ function includesNumber(array, n) {
     if(array[0] === n) {
       return true;
     } else {
-      
+      return includesNumber(array.slice(1), n)
     }
   }
 }
