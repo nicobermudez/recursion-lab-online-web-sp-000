@@ -14,7 +14,6 @@ function reverseString(string) {
   if(string === "") {
     return "";
   } else {
-    let newString = string.substring(0, -1)
-    reverseString(newString)
+    return reverseString(string.substring(1)) + string.charAt(0)
   }
 }
