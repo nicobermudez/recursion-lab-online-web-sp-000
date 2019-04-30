@@ -10,11 +10,11 @@ function printString(myString) {
 }
 
 function reverseString(string) {
-
-
+  let newString
   if(string <= 1) {
     return string;
   } else {
-    let newString = "";
+    let newString = newString + string.substring(0, -1)
+    reverseString(newString)
   }
 }
