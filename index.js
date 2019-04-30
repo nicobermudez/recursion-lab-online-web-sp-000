@@ -20,5 +20,7 @@ function reverseString(string) {
 function isPalindrome(string) {
   if(string.length > 1) {
     
+  } else {
+    return false;
   }
 }
