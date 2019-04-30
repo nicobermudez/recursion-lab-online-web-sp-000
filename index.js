@@ -15,6 +15,6 @@ function reverseString(string) {
     return newString;
   } else {
     let newString = newString + string.substring(0, -1)
-    reverseString()
+    reverseString(newString)
   }
 }
