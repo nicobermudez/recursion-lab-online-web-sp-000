@@ -10,6 +10,7 @@ function printString(myString) {
 }
 
 function reverseString(string) {
+  console.log(string[-1])
   if(string <= 1) {
     return true;
   } else {
