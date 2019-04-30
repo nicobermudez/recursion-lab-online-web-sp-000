@@ -15,5 +15,6 @@ function reverseString(string) {
     return true;
   } else {
     let substring = string.substring(0, -1)
+    reverseString(substring)
   }
 }
