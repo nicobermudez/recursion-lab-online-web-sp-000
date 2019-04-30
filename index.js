@@ -11,7 +11,7 @@ function printString(myString) {
 
 function reverseString(string) {
 
-  if(string.length <= 1) {
+  if(string === "") {
     return string;
   } else {
     let newString = string.substring(0, -1)
