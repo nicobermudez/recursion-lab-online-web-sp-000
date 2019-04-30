@@ -35,6 +35,6 @@ function maxOf(array) {
   if(array.length <= 1) {
     return false;
   } else {
-    if ()
+    
   }
 }
