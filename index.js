@@ -28,7 +28,7 @@ function isPalindrome(string) {
   }
 }
 
-function addUpTo(array) {
+function addUpTo(array, index) {
   if(array.length > 1) {
     return 
   } else {
